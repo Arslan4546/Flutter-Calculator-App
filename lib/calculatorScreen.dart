@@ -83,35 +83,35 @@ class _CalculatorState extends State<Calculator> {
               style: const TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
             ),
           ),
-          SizedBox(height: 10,),
+          const SizedBox(height: 10,),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               _buildButton("7"), _buildButton("8"), _buildButton("9"), _buildButton("/")
             ],
           ),
-          SizedBox(height: 10,),
+          const SizedBox(height: 10,),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               _buildButton("4"), _buildButton("5"), _buildButton("6"), _buildButton("*")
             ],
           ),
-          SizedBox(height: 10,),
+          const SizedBox(height: 10,),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               _buildButton("1"), _buildButton("2"), _buildButton("3"), _buildButton("-")
             ],
           ),
-          SizedBox(height: 10,),
+          const SizedBox(height: 10,),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               _buildButton("C"), _buildButton("0"), _buildButton("=", color: Colors.green), _buildButton("+")
             ],
           ),
-          SizedBox(height: 20,),
+          const SizedBox(height: 20,),
         ],
       ),
     );
